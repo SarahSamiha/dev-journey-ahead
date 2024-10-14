@@ -17,8 +17,16 @@
   color: rgba(13, 19, 33, 1);
 }
 
-.secondary-bg {
+.primary-bg {
   background-color: rgba(13, 19, 33, 0.03);
+}
+
+.secondary-bg {
+  background-color: rgba(255, 76, 30, 0.05);
+}
+
+.tertiary-bg {
+  background-color: rgba(0, 76, 232, 0.05);
 }
 
 .common-description {
@@ -34,6 +42,15 @@
   padding: 12px 20px;
   border: 1px solid #0d1321;
   background-color: white;
+}
+
+.more-btn {
+  border: none;
+  text-decoration: underline #0d13217a;
+  font-size: 16px;
+  font-weight: 700;
+  color: #0d1321;
+  background-color: rgba(255, 255, 255, 0);
 }
 
 .banner {
@@ -150,4 +167,29 @@ section {
 iframe {
   border-radius: 15px;
   width: 100%;
+}
+
+.target-card-container {
+  display: flex;
+  gap: 30px;
+}
+
+.target-card {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: left;
+  padding: 40px;
+  border-radius: 8px;
+}
+
+.target-card img {
+  max-width: 50px;
+  max-height: 100%;
+}
+
+.target-card-title {
+  font-size: 24px;
+  font-weight: 800;
 }
